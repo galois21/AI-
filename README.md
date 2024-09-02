@@ -1,7 +1,10 @@
-暂时无法在飞书文档外展示此内容
+
 1. 梯子（VPN）
-1.1 iPhone/Ipad（IOS）
+
+1.1.  iPhone/Ipad（IOS）
+
 安装软件小火箭，appstore内付费软件
+
 1. 软件下载安装：先退出自己的appstore账号（App Store"我的"，滑动到底部）；再登下面账号（我自己买的美区账号），切记 不要 去“设置”里登录iCloud！ 选“其他选项”—“不升级账号”，不要绑定手机号！；
 - id：kjirstennedleyzt@outlook.com
 - 密码：Bushengji0
