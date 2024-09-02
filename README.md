@@ -1,4 +1,6 @@
 # AI 安装接入指南
+<img width="343" alt="image" src="https://github.com/user-attachments/assets/46dad1f3-2850-4ee4-90a7-1b02b7339852">
+
 
 ## 1. 梯子（VPN）
 
