@@ -116,33 +116,69 @@ OpenAI 已推出官方客户端，可直接在官网下载并安装。
 ### macOS：
 
 1. **选项 1（推荐）**：**Jamjams**（支持 v2ray 和 shadowsocks 协议）
-   - [Jamjams-0.1.8 安装程序](#)
+   - [Jamjams-0.1.8 安装程序](https://justmysocks3.net/members/dist/jamjams-0.1.8.dmg)
 
 2. **选项 2**：**V2rayX**
-   - [V2RayX.app](#)
+   - [V2RayX.app](https://justmysocks3.net/members/dist/V2RayX.app.zip)
 
 3. **选项 3**：**暗影袜**（ShadowsocksX-NG）
-   - 适用于 OS X v10.12+：[shadowsocksx-ng.app.1.9.4.zip](#)
+   - 适用于 OS X v10.12+：[shadowsocksx-ng.app.1.9.4.zip](https://justmysocks3.net/members/dist/osx-shadowsocksx-ng.app.1.9.4.zip)
    - OS X 旧版本：[ShadowsocksX-NG GitHub Releases](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
 
 ### iOS：
 
-- **Potatso**: [Potatso Lite](#)
+- **Potatso**: [Potatso Lite](https://apps.apple.com/us/app/potatso-lite/id1239860606)
 
 ### 安卓：
 
-- **Shadowsocks**: [shadowsocks-4.7.4.apk](#)
+- **Shadowsocks**: [shadowsocks-4.7.4.apk](https://justmysocks3.net/members/dist/com.github.shadowsocks-4.7.4.apk)
 
 
 ## 3 特别配置（Viber）
 
-提供了如何使用 Viber 客户端进行 ss 服务配置的指南。
+某些 C/S 客户端工具只支持 **ss** 类型的 VPN 服务，因此需要手动配置 **ss** 服务。以下是以 **Viber** 为例的配置步骤：
+
+1. **唤出 Viber 代理配置窗口**  
+   启动 Viber 后，若无法成功登录，请耐心等待 1～2 分钟，直至出现配置窗口。
+
+2. **通过订阅获取 ss 服务配置**  
+   通过订阅地址获取服务信息，其中编号 1 和 2 是 **ss** 服务，3、4、5 和 801 为 **v2ray** 服务（不容易被封）。
+
+3. **填入 ss 服务信息到 Viber 的代理配置窗口**  
+   将获取的 **ss** 服务信息填入 Viber 的代理配置窗口中。
+
 
 ## 4 教你科学上网
 
 更多科学上网的教程和资源请参考 [链接](https://lienjack.github.io/Blog/knowledge/learn/ssh.html)。
 
 ## 5 公司内网科学上网配置
+为在公司内网环境中科学上网，您可以通过配置浏览器扩展 **SwitchyOmega** 来实现代理设置。以下是详细步骤：
 
-1. 安装 SwitchyOmega 扩展并在 Google Chrome 中进行代理设置。
-2. 使用提供的代理服务器信息进行配置，完成后可科学上网。
+1. **安装 SwitchyOmega 扩展**
+   - 打开 Google Chrome 浏览器。
+   - 点击右上角的“三个点”图标，选择“更多工具” -> “扩展程序”，打开扩展程序页面。
+   - 在扩展程序页面的右上角开启“开发者模式”。
+   - 下载 `SwitchyOmega.crx` 离线文件，将其拖放到扩展程序页面，然后在弹出的对话框中点击“添加扩展程序”。
+   - 配置 SwitchyOmega 并将其添加到扩展程序快捷栏。
+
+2. **配置 SwitchyOmega**
+   - 左键点击 SwitchyOmega 扩展图标，在弹出的菜单中选择“选项”以打开配置页面。
+   - 在配置页面左侧选择“新增情景模式”，在弹出的框中填写名称，并选择类型为“代理服务器”。
+   - 选择刚才创建的情景模式，并根据下图配置代理服务器信息（点击右边的锁按钮填写账号和密码）：
+     - **地址**：`192.168.0.1`
+     - **端口**：`88`
+     - **代理协议**：`HTTP`
+     - **账号**：`XXX`
+     - **密码**：`XXX`
+
+3. **配置自动切换模式**
+   - 在左侧菜单中选择默认的“auto switch”情景模式。
+   - 在配置页面中按照以下步骤配置：
+     - 在“导入规则列表”部分选择“添加列表”。
+     - 选择规则列表格式为“AutoProxy”，在规则列表网址中填写 `*.openai.com`，然后点击“立即更新情景模式”。
+
+4. **完成配置并测试**
+   - 左键点击 SwitchyOmega 扩展图标，在弹出的菜单中选择“auto switch”。
+   - 访问 Google 进行测试，确保配置生效。
+
