@@ -21,7 +21,7 @@
 
 ### 1.2 苹果电脑（macOS）
 
-1. **软件下载安装**：下载 [V2rayU-64.dmg]（https://github.com/yanue/V2rayU/releases） 并安装。
+1. **软件下载安装**：下载 [V2rayU-64.dmg](https://github.com/yanue/V2rayU/releases)并安装。
 2. **添加订阅**：在“订阅设置”中点击“添加”。
 3. **更新订阅**：在“订阅设置”中选中地址并点击“更新”。如需修改订阅地址，先移除旧的地址再添加新的（不支持直接修改）。
 4. **启动服务**：添加订阅后选择一个服务地址，选择 PAC 模式并打开。
@@ -79,7 +79,7 @@ OpenAI 已推出官方客户端，可直接在官网下载并安装。
 
 #### 2.2.1 苹果设备
 
-1. 注册美区 Apple ID（参考 [指南](https://shadowsockshelp.github.io/Shadowsocks/apple-id.html)）。
+1. 注册美区 Apple ID（ [参考指南](https://shadowsockshelp.github.io/Shadowsocks/apple-id.html)）。
 2. 在 iPhone 的 App Store 中搜索并下载 ChatGPT。
 
 #### 2.2.2 安卓设备
@@ -101,7 +101,7 @@ OpenAI 已推出官方客户端，可直接在官网下载并安装。
 
 ### 1.3 美区账号免费注册
 
-- 参考[注册美区 Apple ID 帐号的终极指南”](https://shadowsockshelp.github.io/Shadowsocks/apple-id.html)
+- 参考[注册美区 Apple ID 帐号的终极指南](https://shadowsockshelp.github.io/Shadowsocks/apple-id.html)
 
 ### 1.4 美区账号购买
 
@@ -156,6 +156,8 @@ OpenAI 已推出官方客户端，可直接在官网下载并安装。
 
 3. **填入 ss 服务信息到 Viber 的代理配置窗口**  
    将获取的 **ss** 服务信息填入 Viber 的代理配置窗口中。
+
+<img width="703" alt="image" src="https://github.com/user-attachments/assets/83ff492d-78b3-4fa0-8949-00ee723e398a">
 
 
 ## 4 教你科学上网
