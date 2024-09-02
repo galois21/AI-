@@ -19,7 +19,7 @@
 
 ### 1.2 苹果电脑（macOS）
 
-1. **软件下载安装**：下载 [V2rayU-64.dmg] 并安装。
+1. **软件下载安装**：下载 [V2rayU-64.dmg]（https://github.com/yanue/V2rayU/releases） 并安装。
 2. **添加订阅**：在“订阅设置”中点击“添加”。
 3. **更新订阅**：在“订阅设置”中选中地址并点击“更新”。如需修改订阅地址，先移除旧的地址再添加新的（不支持直接修改）。
 4. **启动服务**：添加订阅后选择一个服务地址，选择 PAC 模式并打开。
@@ -27,11 +27,11 @@
    ![image](https://github.com/user-attachments/assets/ab2f5b73-e2fa-4b43-ad89-3c1144d35933)
 
 
-**备用软件**（部分订阅链接需要 ClashX，V2Ray 不支持）：下载 [ClashX.dmg]。
+**备用软件**（部分订阅链接需要 ClashX，V2Ray 不支持）：下载 [ClashX.dmg](https://clashxhub.com/clash-backup-download/)。
 
 ### 1.3 Windows 电脑
 
-1. **软件下载安装**：下载 [v2rayN-With-Core.zip]，解压后运行 `v2rayN.exe`。
+1. **软件下载安装**：下载 [v2rayN-With-Core.zip](https://github.com/2dust/v2rayN/releases)，解压后运行 `v2rayN.exe`。
 2. **添加订阅**：在“订阅分组”中点击“订阅分组设置”->“添加”。
 3. **更新订阅**：在“订阅分组”中点击“更新全部订阅”。
 4. **启动服务**：在系统托盘中选择“自动”+“黑名单”+任一服务器。
@@ -39,11 +39,11 @@
    ![image](https://github.com/user-attachments/assets/2a18c5cd-9fd4-438b-b039-43a02aa5e90a)
 
 
-**备用软件**：下载 [Clash.for.Windows.Setup.0.20.35.exe]。
+**备用软件**：下载 [Clash.for.Windows.Setup.0.20.35.exe](https://clashxhub.com/clash-backup-download/)。。
 
 ### 1.4 安卓手机/平板
 
-1. **软件下载安装**：从 [GitHub](https://github.com/2dust/v2rayNG) 下载 [v2rayNG_1.8.12.apk] 并安装。
+1. **软件下载安装**：从 [GitHub](https://github.com/2dust/v2rayNG) 下载v2rayNGd的apk 并安装。
 2. **添加订阅**：在菜单中选择“订阅分组设置”->“+”添加，输入订阅地址。
 3. **更新订阅**：在主界面右上角点击“三个点”->“更新订阅”。
 4. **启动服务**：在左上角菜单中选择“设置”->“路由设置”->“预定义规则”->“绕过大陆”，选择任一服务器并启动。
