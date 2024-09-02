@@ -78,39 +78,71 @@ OpenAI 已推出官方客户端，可直接在官网下载并安装。
 2. 安卓手机下载安装 HiGoPlay 或 go 安装器，安装好 Google 服务三件套。
 3. 登录 Google 商店，搜索并下载安装 ChatGPT。
 
-# 附录参考
+# 【其他参考】
 ## 1 账号获取
-### 1.1 虚拟手机号购买
+### 1.1 虚拟手机号购买注册chatGPT
 
 - 访问 [虚拟手机号购买网站](https://sms-activate.org/cn/freePrice#activation)，输入关键字 “openai” 选择合适的虚拟手机号进行购买。
+- 选择任一国家，点击购物车按钮购买虚拟手机号（不要买美国的，无法通过验证！！！），购买成功后回到openai页面选择你购买虚拟号的国家，输入下图虚拟手机号，点击验证（**vpn一定要切全局代理，不然发不了验证码**）。输入验证码注册成功
 
 ### 1.2 GPT4 共享账号购买
 
-- 提供共享账号的租用和购买信息，推荐购买 ChatGPT Plus 订阅会员以获得更稳定的使用体验。
+- [【租用】ChatGPT4.0共享账号 | Plus订阅会员 | 长期稳定使用](https://store.sorryios.com/buy/3) 提供共享账号的租用和购买信息，推荐购买 ChatGPT Plus 订阅会员以获得更稳定的使用体验。
 
 ### 1.3 美区账号免费注册
 
-- 参考“注册美区 Apple ID 帐号的终极指南”。
+- 参考[注册美区 Apple ID 帐号的终极指南”](https://shadowsockshelp.github.io/Shadowsocks/apple-id.html)
 
 ### 1.4 美区账号购买
 
 - 访问 [数卡杂货铺](https://www.ididhub.com) 进行购买。
+- 其他购买：https://www.ididhub.com
 
-## 2 公司内网科学上网配置
+## 2 VPS 运营商推荐连接工具下载
 
-1. 安装 SwitchyOmega 扩展并在 Google Chrome 中进行代理设置。
-2. 使用提供的代理服务器信息进行配置，完成后可科学上网。
+### Windows：
 
-## 3 VPS 运营商推荐连接工具下载
+1. **选项 1（推荐）**：**Jamjams**（支持 v2ray 和 shadowsocks 协议）
+   - [Jamjams-0.1.8 安装程序](https://justmysocks3.net/members/dist/jamjams-0.1.8-installer.exe) 或 [Jamjams-0.1.8 便携式](https://justmysocks3.net/members/dist/jamjams-0.1.8.exe)
 
-提供了适用于 Windows、macOS、iOS 和安卓的推荐工具及下载链接。
+2. **选项 2**：**v2rayN-Core**（支持 v2ray 和 shadowsocks 协议）
+   - [v2rayN-Core-5.18](https://justmysocks3.net/members/dist/v2rayn-core-5.18.zip) 
+   - 旧版本：[v2rayN-Core-3.18](https://justmysocks3.net/members/dist/v2rayn-core-3.18.zip)
 
-## 4 特别配置（Viber）
+3. **选项 3**：**香草 Shadowsocks-4**（仅支持 shadowsocks 协议）
+   - [shadowsocks-4.1.6.zip](https://justmysocks3.net/members/dist/windows-shadowsocks-4.1.6.zip)
+   - Windows 版 Shadowsocks-4.1.6 的 OBFS 插件：[obfs-local.zip](https://justmysocks3.net/members/dist/obfs-local.zip)（从存档中提取两个文件并将其放入与 Shadowsocks 相同的文件夹中）
+
+### macOS：
+
+1. **选项 1（推荐）**：**Jamjams**（支持 v2ray 和 shadowsocks 协议）
+   - [Jamjams-0.1.8 安装程序](#)
+
+2. **选项 2**：**V2rayX**
+   - [V2RayX.app](#)
+
+3. **选项 3**：**暗影袜**（ShadowsocksX-NG）
+   - 适用于 OS X v10.12+：[shadowsocksx-ng.app.1.9.4.zip](#)
+   - OS X 旧版本：[ShadowsocksX-NG GitHub Releases](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
+
+### iOS：
+
+- **Potatso**: [Potatso Lite](#)
+
+### 安卓：
+
+- **Shadowsocks**: [shadowsocks-4.7.4.apk](#)
+
+
+## 3 特别配置（Viber）
 
 提供了如何使用 Viber 客户端进行 ss 服务配置的指南。
 
-## 5 教你科学上网
+## 4 教你科学上网
 
 更多科学上网的教程和资源请参考 [链接](https://lienjack.github.io/Blog/knowledge/learn/ssh.html)。
 
-希望这个整理后的文章格式清晰，适合发布在 GitHub 上。如果需要进一步修改或补充内容，请告诉我！
+## 5 公司内网科学上网配置
+
+1. 安装 SwitchyOmega 扩展并在 Google Chrome 中进行代理设置。
+2. 使用提供的代理服务器信息进行配置，完成后可科学上网。
