@@ -106,7 +106,7 @@ OpenAI 已推出官方客户端，可直接在官网下载并安装。
 ### 1.4 美区账号购买
 
 - 访问 [数卡杂货铺](https://www.ididhub.com) 进行购买。
-- 其他购买：https://www.ididhub.com
+- 其他购买：[https://www.ididhub.com](https://store.sorryios.com)
 
 ## 2 VPS 运营商推荐连接工具下载
 
