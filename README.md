@@ -30,6 +30,7 @@
 
 
 **备用软件**（部分订阅链接需要 ClashX，V2Ray 不支持）：下载 [ClashX.dmg](https://clashxhub.com/clash-backup-download/)。
+clash地址转换工具： https://acl4ssr-sub.github.io 
 
 ### 1.3 Windows 电脑
 
