@@ -193,3 +193,60 @@ JMS 当前可用 IP
 ```
 
 一句话：**你的方案能显著提高“订阅可用性”和“DNS 解析正确率”，但最终抗封能力还是取决于服务商节点 IP 池、线路质量和协议伪装。**
+
+# 客户端修改DNS方法
+## clash-verge
+<img width="1102" height="444" alt="image" src="https://github.com/user-attachments/assets/ba72db61-9959-408b-a812-cdc45961fd29" />
+
+```yaml
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+
+  proxy-server-nameserver:
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+
+  nameserver-policy:
+    "geosite:cn":
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+    "geosite:geolocation-!cn":
+      - https://cloudflare-dns.com/dns-query
+      - https://dns.google/dns-query
+```
+
+## 小火箭
+
+进入：
+
+```text
+Shadowrocket
+  ↓
+配置
+  ↓
+本地文件
+  ↓
+点你正在使用的配置文件右侧的 ⓘ / 编辑
+  ↓
+编辑纯文本配置
+  ↓
+找到 [General]
+```
+
+在 `[General]` 下面加：
+
+```ini
+[General]
+dns-server = https://cloudflare-dns.com/dns-query, https://dns.google/dns-query
+```
