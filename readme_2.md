@@ -44,11 +44,19 @@
 - 打开 YouTube 测试，能正常访问即成功
 - 更新订阅（不能使用时更新）：首页——订阅右侧“更新”图标——点击，等待更新完成
 
-#### 4. 设置自定义规则（可选，老司机进阶玩法）
-路径：配置 → default.conf → 规则
+#### 4. 推荐配置
+
 (1)推荐配置：懒人配置里增加 https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/lazy_group.conf
+
 (2)推荐去广告配置：配置-模块 https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/refs/heads/release/sr_ad_only.conf
+
 教程：https://x.com/tun2049/status/2067795769852317756?s=46
+
+#### 5. 设置自定义规则（可选，老司机进阶玩法）
+
+路径：配置 → default.conf → 规则
+
+
 
 
 常见规则说明：
