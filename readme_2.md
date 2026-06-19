@@ -48,6 +48,7 @@
 路径：配置 → default.conf → 规则
 (1)推荐配置：懒人配置里增加 https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/lazy_group.conf
 (2)推荐去广告配置：配置-模块 https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/refs/heads/release/sr_ad_only.conf
+教程：https://x.com/tun2049/status/2067795769852317756?s=46
 
 
 常见规则说明：
