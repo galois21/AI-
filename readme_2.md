@@ -46,6 +46,9 @@
 
 #### 4. 设置自定义规则（可选，老司机进阶玩法）
 路径：配置 → default.conf → 规则
+(1)推荐配置：懒人配置里增加 https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/lazy_group.conf
+(2)推荐去广告配置：配置-模块 https://raw.githubusercontent.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/refs/heads/release/sr_ad_only.conf
+
 
 常见规则说明：
 direct	国内网站直连
