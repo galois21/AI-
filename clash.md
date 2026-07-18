@@ -1,3 +1,8 @@
+
+### 快捷版本
+[https://github.com/galois21/AI-/blob/main/readme_V2.md](https://github.com/galois21/AI-/blob/main/readme_V2.md)
+
+### clas专题
 Clash Meta 已改名 Mihomo，是一个基于开源项目 Clash 的二次开发版本，并增加了一些独有特性，Meta 核心支持所有原开源核心的全部特性，支持原 Clash Premium 核心部分特性。
 
 ## 使用
