@@ -1,7 +1,7 @@
 Clash Meta 已改名 Mihomo，是一个基于开源项目 Clash 的二次开发版本，并增加了一些独有特性，Meta 核心支持所有原开源核心的全部特性，支持原 Clash Premium 核心部分特性。
 
 ## 使用
-Windows、mac、Linux桌面版安装Clash Verge，安卓安装Clash Meta for Android，苹果继续小火箭 [小火箭使用说明]([https://github.com/clash-verge-rev/clash-verge-rev](https://github.com/galois21/AI-/blob/main/readme_V2.md#11-iphoneipadios小火箭shadowrocket)) 
+Windows、mac、Linux桌面版安装Clash Verge，安卓安装Clash Meta for Android，苹果继续小火箭 [小火箭使用说明]([https://github.com/clash-verge-rev/clash-verge-rev](https://github.com/galois21/AI-/blob/main/readme_V2.md#11-iphoneipadios小火箭shadowrocket] ) 
 1. 导入订阅
 2. 托盘右键设置为如图
 3. <img width="532" height="678" alt="image" src="https://github.com/user-attachments/assets/b3819f41-a268-4e12-89d6-e9d8c9809cd5" />
